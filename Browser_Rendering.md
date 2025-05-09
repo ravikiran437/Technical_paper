@@ -17,16 +17,17 @@ Modern web browsers like Chrome, Firefox, and Safari are complex software system
 
 ## 1. Loading
 
-    - The browser sends an HTTP(S) request to the server.
-    - It receives HTML, CSS, JS, images, fonts, etc.
-    - The browser begins parsing HTML **as it downloads**.
+* The browser sends an HTTP(S) request to the server.
+* It receives HTML, CSS, JS, images, fonts, etc.
+* The browser begins parsing HTML **as it downloads**.
 
 ## 2. HTML Parsing → DOM Tree
 
-    - The browser parses the HTML into a **DOM tree** (Document Object Model).
-    - DOM is a hierarchical, in-memory representation of elements.
+*  The browser parses the HTML into a **DOM tree** (Document Object Model).
+  * DOM is a hierarchical, in-memory representation of elements.
      
-    Example:
+    Example:    
+
                 <html>
                 <body>
                     <p>Hello</p>
@@ -34,6 +35,7 @@ Modern web browsers like Chrome, Firefox, and Safari are complex software system
                 </html>
 
     Parsed as:
+
                 Document
                 └── html
                     └── body
@@ -54,53 +56,55 @@ Modern web browsers like Chrome, Firefox, and Safari are complex software system
 
 ## 4.DOM + CSSOM → Render Tree
 
-    -The browser combines the DOM and CSSOM to build the Render Tree.
-    -The render tree includes only visible elements.
+*  The browser combines the DOM and CSSOM to build the Render Tree.
+*  The render tree includes only visible elements.
     -It maps content to how it should appear on screen.
 
 ## 5. Layout (Reflow)
 
-    -The browser calculates positions and sizes of all elements.
-    -This process is called layout or reflow.
-    -Depends on viewport size, fonts, styles, etc.
+* The browser calculates positions and sizes of all elements.
+* This process is called layout or reflow.
+* Depends on viewport size, fonts, styles, etc.
 
 ## 6. Painting
 
-    -Each node is then painted — i.e., converted into pixels.
-    -The browser draws backgrounds, text, borders, shadows, etc.
+* Each node is then painted — i.e., converted into pixels.
+* The browser draws backgrounds, text, borders, shadows, etc.
 
 ## 7. Compositing
 
-    -If the page has overlapping elements, CSS transforms, or animations:
-    -The browser splits the page into layers.
-    -It then composites those layers in the correct order.
+* If the page has overlapping elements, CSS transforms, or animations:
+* The browser splits the page into layers.
+* It then composites those layers in the correct order.
 
 ## JavaScript & Re-renders
-    -JavaScript can modify the DOM using APIs like:
+* JavaScript can modify the DOM using APIs like:
+
                         document.getElementById("title").textContent = "Updated!";
 
-    This can trigger:
-        -Recalculate Style
-        -Reflow (Layout)
-        -Repaint
+
 
 
 ## Summary Diagram
 
-        HTML --> DOM Tree
-        CSS --> CSSOM Tree
-        DOM + CSSOM --> Render Tree --> Layout --> Paint --> Composite
-
-
-## References
-    [1][Google Developers-Critical Rendering Path](https://developer.chrome.com/docs/devtools/)
-    
-    [2][MDN Web Docs-Dom Rendering](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-    [3][HTML5 Rocks-Inside look at Rendering](https://web.dev/articles/howbrowserswork)
+    HTML --> DOM Tree
+    CSS --> CSSOM Tree
+    DOM + CSSOM --> Render Tree--> Layout--> Paint--> Composite
 
 
 ## Conclusion
-    -Browsers render web pages through a multi-step process involving HTML parsing, CSS styling, layout, and painting.
-    -Understanding this helps developers write more efficient and responsive web applications.
-    -Optimizing DOM changes and reducing reflows leads to better performance and user experience.
+* Browsers render web pages through a multi-step process involving HTML parsing, CSS styling, layout, and painting.
+* Understanding this helps developers write more efficient and responsive web applications.
+* Optimizing DOM changes and reducing reflows leads to better performance and user experience.
+
+## References
+
+* [Google Developers-Critical Rendering Path](https://developer.chrome.com/docs/devtools/)
+    
+* [MDN Web Docs-Dom Rendering](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+
+* [HTML5 Rocks-Inside look at Rendering](https://web.dev/articles/howbrowserswork)
+
+
+
 
