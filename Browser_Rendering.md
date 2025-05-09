@@ -93,9 +93,10 @@ Modern web browsers like Chrome, Firefox, and Safari are complex software system
 
 
 ## References
-    -https://developer.chrome.com/docs/devtools/
-    -https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
-    -https://web.dev/articles/howbrowserswork
+    [1][Google Developers-Critical Rendering Path](https://developer.chrome.com/docs/devtools/)
+    
+    [2][MDN Web Docs-Dom Rendering](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+    [3][HTML5 Rocks-Inside look at Rendering](https://web.dev/articles/howbrowserswork)
 
 
 ## Conclusion
