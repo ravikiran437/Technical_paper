@@ -5,7 +5,7 @@
 
 ### Question 1: What is the Feynman Technique? (Explain in 1 line)
 
-The Feynman Technique is a method where you try to **explain a concept in simple words**, like you’re teaching it to someone else.
+The Feynman Technique is a method where you try to explain a concept in simple words, like you’re teaching it to someone else.
 
 ---
 
@@ -14,7 +14,7 @@ The Feynman Technique is a method where you try to **explain a concept in simple
 
 ### Question 2: What was the most interesting story or idea for you?
 
-The most interesting story was how **Barbara Oakley struggled with math early in life**, but later became an engineer and a learning expert by changing her learning approach – showing that **anyone can learn anything** with the right techniques.
+The most interesting story was how Barbara Oakley struggled with math early in life, but later became an engineer and a learning expert by changing her learning approach – showing that anyone can learn anything with the right techniques.
 
 ### Question 3: What are active and diffused modes of thinking?
 
@@ -54,4 +54,3 @@ The most interesting story was how **Barbara Oakley struggled with math early in
 - **Don’t try to master everything** – focus on a few key skills and become really good at them.
 
 ---
-
