@@ -84,3 +84,17 @@ Download files from the internet.
 - `-r` : Download recursively.
 - `--limit-rate=<rate>` : Limit download speed.
 
+
+
+#  Network & Web Protocols – Full Forms
+
+| Term  | Full Form                          |
+| ----- | ---------------------------------- |
+| URL   | Uniform Resource Locator           |
+| HTTP  | HyperText Transfer Protocol        |
+| HTTPS | HyperText Transfer Protocol Secure |
+| FTP   | File Transfer Protocol             |
+| UDP   | User Datagram Protocol             |
+| IP    | Internet Protocol                  |
+| DNS   | Domain Name System                 |
+| JSON  | JavaScript Object Notation         |
